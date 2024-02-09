@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.to-do-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.todo {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: Roboto;
+}
+.delete-button {
+  border: transparent;
+  border-color: crimson;
+  color: crimson;
+  font-size: 11px;
+  border-radius: 10px;
+  text-align: center;
+  height: 25px;
+  width: 80px;
+}
